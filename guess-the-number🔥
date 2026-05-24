@@ -1,0 +1,27 @@
+import random
+
+enemy = random.randint(1, 10)
+
+score = 0
+lives = 3
+
+print("🎮 Guess The Number Game 🎮")
+
+while lives > 0:
+
+    guess = int(input("Enter your guess (1-10): "))
+
+    if guess == enemy:
+        score += 10
+        print("🎉 You Win!")
+        print("Score:", score)
+        break
+
+    else:
+        lives -= 1
+        print("❌ Wrong Guess")
+        print("Lives Left:", lives)
+
+if lives == 0:
+    print("💀 Game Over")
+    print("Enemy Number was:", enemy)
