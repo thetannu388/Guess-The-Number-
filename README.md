@@ -1,25 +1,39 @@
-# Guess-The-Number-
-A simple Python guessing game with score and lives system.
-A fun Python guessing game where the player tries to guess a randomly generated number within limited attempts.
+Number Guessing Game
+
+A fun and interactive Number Guessing Game built using Python. The program generates a random number, and the player has to guess it within a limited number of attempts.
+
 Features
-Random number generation
-Score tracking
-Limited lives system
-User-friendly gameplay
-Replay option
+
+- Random number generation
+- Multiple guessing attempts
+- Hint system (Higher or Lower)
+- Score/Lives tracking
+- Easy-to-use console interface
+
 Technologies Used
-Python
+
+- Python
+- Random Module
+
 How to Play
-Run the program.
-Enter your guess.
-The game will tell you if the number is higher or lower.
-Keep guessing until you find the correct number or run out of lives.
+
+1. Run the Python program.
+2. Enter your guess when prompted.
+3. The game will tell you whether the correct number is higher or lower.
+4. Keep guessing until you find the correct number or run out of attempts.
+5. View your final result.
+
 Learning Outcome
+
 This project helped me practice:
-Loops
-Conditional statements
-Variables
-Random module
-User input handling
+
+- Python Basics
+- Loops
+- Conditional Statements
+- User Input Handling
+- Random Number Generation
+- Problem Solving
+
 Author
+
 Radhika
